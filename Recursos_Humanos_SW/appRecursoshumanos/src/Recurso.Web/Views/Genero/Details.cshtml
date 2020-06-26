@@ -1,0 +1,23 @@
+@using Recurso.Web
+@model Recurso.Domain.Poco.Genero
+@{
+    ViewData["Title"] = "Details Género";
+}
+<h1>Detalles</h1>
+<h4>Género</h4>
+<br/>
+
+<div class="row">
+<div class="col-sm-2">
+    <dt class="col-sn-2">
+        Tipo De Género
+    </dt>
+    <dd class="col-sn-10">
+        @Html.DisplayFor(model => model.Genero1)
+    </dd>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.IdGenero">Editar</a> |        
+        <a asp-action="Index">Regresar</a>
+    </div>
+    </div>
+    </div>

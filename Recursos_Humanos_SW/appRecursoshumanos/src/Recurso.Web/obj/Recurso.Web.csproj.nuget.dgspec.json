@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Web/Recurso.Web.csproj": {}
+  },
+  "projects": {
+    "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Core/Recurso.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Core/Recurso.Core.csproj",
+        "projectName": "Recurso.Core",
+        "projectPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Core/Recurso.Core.csproj",
+        "packagesPath": "/home/edgar-fernandez/.nuget/packages/",
+        "outputPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edgar-fernandez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/Recurso.Domain.csproj": {
+                "projectPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/Recurso.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/Recurso.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/Recurso.Domain.csproj",
+        "projectName": "Recurso.Domain",
+        "projectPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/Recurso.Domain.csproj",
+        "packagesPath": "/home/edgar-fernandez/.nuget/packages/",
+        "outputPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edgar-fernandez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Web/Recurso.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Web/Recurso.Web.csproj",
+        "projectName": "Recurso.Web",
+        "projectPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Web/Recurso.Web.csproj",
+        "packagesPath": "/home/edgar-fernandez/.nuget/packages/",
+        "outputPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/edgar-fernandez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Core/Recurso.Core.csproj": {
+                "projectPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Core/Recurso.Core.csproj"
+              },
+              "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/Recurso.Domain.csproj": {
+                "projectPath": "/media/edgar-fernandez/42cb39ae-893e-404a-94bb-3a5e80404d78/Edgar_Fernandez/Proyectos-De-Software/Proyectos-.NET/Proyectos-Web/Recursos_Humanos_SW/appRecursoshumanos/src/Recurso.Domain/Recurso.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

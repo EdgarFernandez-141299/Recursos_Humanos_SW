@@ -1,0 +1,727 @@
+    1  sudo yum upgrade
+    2  sudo yum install java-11-openjdk-devel
+    3  java -version
+    4  alternatives --config java
+    5  yum install maven
+    6  su
+    7  unzip netbeans-11.2-bin.zip 
+    8  unzip openjfx-13.0.2_linux-x64_bin-sdk.zip 
+    9  ./netbeans 
+   10  tar xvf openjdk-13.0.2_linux-x64_bin.tar.gz 
+   11  sudo mv jdk-13 /opt/
+   12  cd 
+   13  alternatives --config java
+   14  sudo alternatives --config java
+   15  java -version
+   16  unzip openjfx-13.0.2_linux-x64_bin-sdk.zip 
+   17  alternatives --config java
+   18  unzip openjfx-11.0.2_linux-x64_bin-sdk.zip 
+   19  ./netbeans 
+   20  unzip mercadeoRepo.zip 
+   21  unzip recursosHumanosRepo.zip 
+   22  unzip eventRepo.zip 
+   23  exit
+   24  ./netbeans 
+   25  tar xvf LibreOffice_6.4.0_Linux_x86-64_rpm.tar.gz 
+   26  cd LibreOffice_6.4.0.3_Linux_x86-64_rpm/
+   27  ls
+   28  ls RPMS/
+   29  yum localinstall RPMS/*.rpm
+   30  su
+   31  ./netbeans 
+   32  su
+   33  exit
+   34  git clone https://github.com/roskenet/springboot-javafx-support.git
+   35  ./netbeans 
+   36  unzip  netbeans-11.3-bin.zip 
+   37  exit
+   38  alternatives --config java
+   39  exit
+   40  unzip wildfly-19.0.0.Final.zip 
+   41  systemctl status  mysql 
+   42  systemctl status  mysqld 
+   43  alternatives --config java
+   44  ./netbeans 
+   45  su
+   46  alternative --config java
+   47  alternatives --config java
+   48  su
+   49  exit
+   50  su
+   51  pwd
+   52  sh studio.sh 
+   53  tar xvf android-studio-ide-192.6241897-linux.tar.gz 
+   54  ./netbeans 
+   55  unzip omega-2.0.0.zip 
+   56  ls
+   57  mvn install:install-file -Dfile=omega-menu-2.0.0.jar -DgroupId=org.primefaces.omegamenu -DartifactId=omega-menu -Dversion=2.0.0 -Dpackaging=jar -DgeneratePom=true
+   58  systemctl status  mysqld 
+   59  systemctl status  mysql
+   60  systemctl status  mysqld
+   61  mysql -u root -p
+   62  yum remove mysql mysql-server
+   63  su
+   64  exit
+   65  dpkg -i google-chrome-stable_current_amd64.deb 
+   66  ssh root@74.208.67.205
+   67  scp root@74.208.67.205:/root/RESPALDOC19/Repositorios1604.zip Repositorios1604.zip
+   68  unzip Repositorios1604.zip 
+   69  exit
+   70  ping 192.168.100.16
+   71  exit
+   72  unzip DB16abril.zip 
+   73  su
+   74  pwd
+   75  cd Documentos/
+   76  wget https://repo.mysql.com/mysql80-community-release-el8-1.noarch.rpm
+   77  yum localinstall mysql80-community-release-el8-1.noarch.rpm 
+   78  su
+   79  exit
+   80  su
+   81  ssh root@74.208.67.205
+   82  ssh oitic@74.208.67.205
+   83  ssh root@74.208.67.205
+   84  ssh gestor@74.208.67.205
+   85  ssh root@74.208.67.205
+   86  ssh evento@74.208.67.205
+   87  ssh root@74.208.67.205
+   88  exit
+   89  git add .
+   90  git commit -m "Ajuste de idiomas"
+   91  git pull
+   92  git push
+   93  git clone gestor@74.208.67.205:/home/gestor/Repositorios/kinder8Repo
+   94  ssh root@74.208.67.205
+   95  cd kinder8Repo/
+   96  ./netbeans 
+   97  su
+   98  exit
+   99  git add .
+  100  git commit -m "Primer upate remoto"
+  101  git push
+  102  unzip mail-template.zip 
+  103  fuser 8080/tcp
+  104  kill -9 11899
+  105  fuser 8080/tcp
+  106  exit
+  107  unzip public_html_190ctubre_07_00.zip 
+  108  ssh root@74.208.67.205
+  109  git pull
+  110  ssh root@74.208.67.205
+  111  git clone evento@74.208.67.205:/home/evento/repositorio/eventRepo
+  112  cd kinder8Repo/
+  113  git add .
+  114  git commit -m "Revision de templates"
+  115  git pull
+  116  ssh root@74.208.67.205
+  117  git pull
+  118  fuser 8080/tcp
+  119  ssh root@74.208.67.205
+  120  ./netbeans
+  121  ./netbeans 
+  122  unzip 9_Documento\ de\ Análisis\ y\ Diseño\ Detallado.zip 
+  123  git add .
+  124  git commit -m "Grupo Horario inconcluso"
+  125  git pull
+  126  git push
+  127  exit
+  128  ssh root@74.208.67.205
+  129  exit
+  130  git add .
+  131  git commit -m "pom actualizado y fuente"
+  132  git pull
+  133  git push
+  134  exit
+  135  unzip saitesh2018.zip 
+  136  exit
+  137  ./netbeans
+  138  exit
+  139  git add .
+  140  git commit -m "Horario de grupo"
+  141  git pull
+  142  git push
+  143  ls
+  144  scp profesional.zip root@74.208.67.205:/root/RESPALDOC19/profesional.zip
+  145  ssh root@74.208.67.205
+  146  scp servicio.sql root@74.208.67.205:/root/servicio.sql
+  147  scp root@74.208.67.205:/root/servicio.sql servicio.sql
+  148  ssh root@74.208.67.205
+  149  exit
+  150  scp root@74.208.67.205:/root/project project
+  151  scp -Rf root@74.208.67.205:/root/project project
+  152  scp -J root@74.208.67.205:/root/project project
+  153  pwd
+  154  scp -r root@74.208.67.205:/root/project project
+  155  scp profesional.zip root@74.208.67.205:/root/profesional.zip
+  156  ssh root@74.208.67.205
+  157  ssh root@74.208.67.205me voy a volver a conectar
+  158  no me lo acepta
+  159  ssh root@74.208.67.205
+  160  git clone profesional@74.208.67.205:/home/profesional/Repositorio/profesional
+  161  ssh root@74.208.67.205
+  162  git pull
+  163  git branch
+  164  git status
+  165  cd ..
+  166  git clone profesional@74.208.67.205:/home/profesional/Repositorio/profesional
+  167  cd profesional/
+  168  ls
+  169  git branch
+  170  git clone oitic@74.208.67.205:/home/oitic/Repositorios/recursosHumanosRepo
+  171  cd recursosHumanosRepo/
+  172  git branch
+  173  ./netbeans 
+  174  ssh root@74.208.67.205
+  175  fuser 8080/tcp
+  176  kill -9 13503
+  177  git add .
+  178  git commit -m "Reticula lazy listo" 
+  179  git pull
+  180  git push
+  181  git add .
+  182  git commit -m "Inicio de profesional"
+  183  git pull
+  184  git push
+  185  unzip Repositorios1604.zip 
+  186  ssh root@74.208.67.205
+  187  ./netbeans 
+  188  unzip mercadeoRepo.zip 
+  189  unrar e SoapServices.rar 
+  190  wget https://www.rarlab.com/rar/rarlinux-x64-5.5.0.tar.gz
+  191  tar -zxvf rarlinux-x64-5.5.0.tar.gz 
+  192  cd rar/
+  193  sudo cp -v rar unrar /usr/local/bin/
+  194  cd ..
+  195  unrar SoapServices.rar
+  196  su
+  197  pwd
+  198  unrar e SoapServices.rar
+  199  unrar e SoapServices.rar 
+  200  unrar e  SoapServices.rar 
+  201  unzip mercadeoRepo.zip 
+  202  ssh root@74.208.67.205
+  203  scp  root@74.208.67.205:/root/mercadeoRepo.zip mercadeoRepo.zip
+  204  ./netbeans 
+  205  productoBase
+  206  mkdir productoBase
+  207  cd productoBase/
+  208  pwd
+  209  xkill
+  210  ssh root@74.208.67.205
+  211  git pull
+  212  ./netbeans 
+  213  unzip omega-2.0.0.zip 
+  214  ./netb
+  215  git pull
+  216  git status
+  217  git pull
+  218  git clone evento@74.208.67.205:/home/evento/Repositorio/eventRepo
+  219  cd eventRepo/
+  220  git status
+  221  mysql -u root
+  222  mysql -u root -p
+  223  cd
+  224  ls
+  225  cd dumps/
+  226  ls
+  227  mysql -u root -p
+  228  ./netbeans 
+  229  git pull
+  230  mysql -u root -p
+  231  exit
+  232  mysql -u root -p
+  233  ./netbeans 
+  234  xkill
+  235  unzip Repositorios1604.zip 
+  236  git clone https://github.com/eugenp/tutorials.git
+  237  mysql -u root -p
+  238  exit
+  239  mysql -u root -p
+  240  systemctl stop mysql;
+  241  su
+  242  mysql -u root -p
+  243  ls -la
+  244  scp fmw_12.2.1.3.0_wls.jar  pc31@192.168.0.58:/home/pc31/Documentos/fmw_12.2.1.3.0_wls.jar
+  245  ping2.168.0.58:/
+  246  ping 192.168.0.58
+  247  unzip fmw_12.2.1.3.0_wls_Disk1_1of1.zip 
+  248  java -jar fmw_12.2.1.3.0_wls.jar 
+  249  git clone https://github.com/hekailiang/squirrel.git
+  250  git pull
+  251  mvn clean install
+  252  xkill
+  253  ./netbeans 
+  254  su
+  255  exit
+  256  java -jar fmw_12.2.1.3.0_wls.jar 
+  257  su
+  258  java -jar fmw_12.2.1.3.0_wls.jar 
+  259  update-alternatives --config java
+  260  sudo update-alternatives --config java
+  261  su
+  262  exit
+  263  sh netbeans-8.2-javaee-linux.sh 
+  264  --jdkhome
+  265  sh netbeans-8.2-javaee-linux.sh 
+  266  sh startWebLogic.sh 
+  267  mysql -u root -p
+  268  mysql -u profesional -p
+  269  sh config.sh
+  270  unzip apiRestBienestar.zip 
+  271  sudo dnf update
+  272  scp omega-menu-2.0.0.jar  root@74.208.67.205:/root/omega-menu-2.0.0.jar
+  273  fuser 8080/tcp
+  274  fuser 7001/tcp
+  275  kill -9 5794
+  276  fuser 7001/tcp
+  277  kill -9 7208
+  278  ping 172.25.39.138
+  279  ping 192.168.100.10
+  280  ping 172.25.39.138
+  281  su
+  282  cd
+  283  cd Descargas/
+  284  sh snx_install.sh 
+  285  ls *.ovpn
+  286  ./snx_install.sh 
+  287  echo $JAVA_HOME
+  288  update-alternatives --config java
+  289  java -jar fmw_12.2.1.3.0_wls.jar 
+  290  fuser 7001/tcp
+  291  kill -9 6234
+  292  fuser 7001/tcp
+  293  echo $JAVA_HOME
+  294  sh deinstall.sh 
+  295  exit
+  296  mvn clean install
+  297  exit
+  298  unzip wildfly-10.1.0.Final.zip 
+  299  sh startWebLogic.sh 
+  300  fuser 7001/tcp
+  301  kill -9 10763
+  302  fuser 7001/tcp
+  303  ./netbeans 
+  304  java -jar fmw_12.2.1.3.0_wls.jar 
+  305  unzip apirestfirma.zip 
+  306  ./netbeans 
+  307  git pull
+  308  sh startWebLogic.sh 
+  309  git pull
+  310  mvn install:install-file -Dfile=omega-menu-2.0.0.jar -DgroupId=org.primefaces.omegamenu -DartifactId=omega-menu -Dversion=2.0.0 -Dpackaging=jar -DgeneratePom=true
+  311  mvn clean install
+  312  xkill
+  313  mysql -u root -p
+  314  ./netbeans 
+  315  mysql -u root -p
+  316  mysql -u profesional -p
+  317  ssh root@74.208.67.205
+  318  git add .
+  319  git commit -m "Descarga desde ManagedBean"
+  320  git push
+  321  mysql -u root -p
+  322  mysql -u root -p
+  323  git pull
+  324  ./netbeans 
+  325  ./netbeans 
+  326  mysql -u root -p
+  327  git pull
+  328  git add .
+  329  git commit -m "Cambios de inicio de historial multiplantel"
+  330  git push
+  331  ./netbeans 
+  332  git add .
+  333  git commmit -m "Antes de clientes okhttp"
+  334  git commit -m "Antes de clientes okhttp"
+  335  git pull
+  336  git push
+  337  git pull
+  338  git add .
+  339  git commit -m "Probando templates 1"
+  340  git add .
+  341  git commit -m "Probando templates 1"
+  342  git push
+  343  git clone oitic@74.208.67.205:/home/oitic/AndroidRepo/RecursoMovil
+  344  ./netbeans 
+  345  git pull
+  346  exit
+  347  ssh root@74.208.67.205
+  348  scp root@74.208.67.205:/root/op.zip op.zip
+  349  ssh root@74.208.67.205
+  350  ./netbeans 
+  351  ssh root@74.208.67.205
+  352  tree
+  353  exit
+  354  ssh root@74.208.67.205
+  355  git pull
+  356  ssh root@74.208.67.205
+  357  scp root@74.208.67.205:/root/ServerDataBases.zip ServerDataBases.zip
+  358  exit
+  359  dnf install rename
+  360  su
+  361  rename 's/Service/UseCase/' *
+  362  ls
+  363  rename 
+  364  rename --help
+  365  rename 's/Service/UseCase/' *.*
+  366  ls
+  367  rename -n 's/Service/UseCase/' *.java
+  368  rename -n 's/Service/UseCase/gi' *.java
+  369  rename -n 'y/Service/UseCase/gi' *.java
+  370  rename -n 'y/Service/UseCase/gi' *.java
+  371  exit
+  372  unzip kleenex19.zip 
+  373  ./netbeans 
+  374  ls > usecase.txt
+  375  mv AlmacenService.java AlmacenUseCase.java  
+  376  mv CargoService.java CargoUseCase.java
+  377  mv CategoriaService.java CategoriaUseCase.java
+  378  mv ClienteService.java ClienteService.java
+  379  mv ConfiguracionService.java ConfiguracionUseCase.java
+  380  mv CorreoService.java CorreoUseCase.java
+  381  mv DetalleOrdenService.java DetalleOrdenUseCase.java
+  382  mv EstatusDetOrdenService.java EstatusDetOrdenUseCase.java
+  383  mv EstatusOrdenService.java EstatusOrdenUseCase.java
+  384  mv EstatusPiezaService.java EstatusPiezaUseCase.java
+  385  mv FormaPagoService.java FormaPagoUseCase.java
+  386  mv ImagenService.java ImagenUseCase.java
+  387  mv MarcaService.java MarcaUseCase.java
+  388  mv ModeloService.java ModeloUseCase.java
+  389  mv MymeTypeService.java MymeTypeUseCase.java
+  390  mv OrdenCompraService.java OrdenCompraUseCase.java
+  391  mv PerfilService.java PerfilUseCase.java
+  392  mv PersonalSeguridadService.java PersonalSeguridadUseCase.java
+  393  mv PiezaService.java PiezaUseCase.java
+  394  mv PrecioService.java PrecioUseCase.java
+  395  mv ProductoHasCategoriaService.java ProductoHasCategoriaUseCase.java
+  396  mv ProductoService.java ProductoUseCase.java
+  397  mv SepomexService.java SepomexUseCase.java
+  398  mv SistemaOficioService.java SistemaOficioUseCase.java
+  399  mv TipoImagenService.java TipoImagenUseCase.java
+  400  mv UnidadMedidaService.java UnidadMedidaUseCase.java
+  401  mv UnspscService.java UnspscUseCase.java
+  402  mv UsuarioService.java UsuarioUseCase.java
+  403  mv VendedorService.java VendedorUseCase.java
+  404  mv VentaService.java VentaUseCase.java
+  405  ls
+  406  cd impl
+  407  mv AlmacenServiceImplImpl.java AlmacenUseCaseImplImpl.java  
+  408  mv CargoServiceImplImpl.java CargoUseCaseImplImpl.java
+  409  mv CategoriaServiceImplImpl.java CategoriaUseCaseImplImpl.java
+  410  mv ClienteServiceImplImpl.java ClienteUseCaseImplImpl.java
+  411  mv ConfiguracionServiceImplImpl.java ConfiguracionUseCaseImplImpl.java
+  412  mv CorreoServiceImplImpl.java CorreoUseCaseImplImpl.java
+  413  mv DetalleOrdenServiceImplImpl.java DetalleOrdenUseCaseImplImpl.java
+  414  mv EstatusDetOrdenServiceImplImpl.java EstatusDetOrdenUseCaseImplImpl.java
+  415  mv EstatusOrdenServiceImplImpl.java EstatusOrdenUseCaseImplImpl.java
+  416  mv EstatusPiezaServiceImplImpl.java EstatusPiezaUseCaseImplImpl.java
+  417  mv FormaPagoServiceImplImpl.java FormaPagoUseCaseImplImpl.java
+  418  mv ImagenServiceImplImpl.java ImagenUseCaseImplImpl.java
+  419  mv MarcaServiceImplImpl.java MarcaUseCaseImplImpl.java
+  420  mv ModeloServiceImplImpl.java ModeloUseCaseImplImpl.java
+  421  mv MymeTypeServiceImplImpl.java MymeTypeUseCaseImplImpl.java
+  422  mv OrdenCompraServiceImplImpl.java OrdenCompraUseCaseImplImpl.java
+  423  mv PerfilServiceImplImpl.java PerfilUseCaseImplImpl.java
+  424  mv PersonalSeguridadServiceImplImpl.java PersonalSeguridadUseCaseImplImpl.java
+  425  mv PiezaServiceImplImpl.java PiezaUseCaseImplImpl.java
+  426  mv PrecioServiceImplImpl.java PrecioUseCaseImplImpl.java
+  427  mv ProductoHasCategoriaServiceImplImpl.java ProductoHasCategoriaUseCaseImplImpl.java
+  428  mv ProductoServiceImplImpl.java ProductoUseCaseImplImpl.java
+  429  mv SepomexServiceImplImpl.java SepomexUseCaseImplImpl.java
+  430  mv SistemaOficioServiceImplImpl.java SistemaOficioUseCaseImplImpl.java
+  431  mv TipoImagenServiceImplImpl.java TipoImagenUseCaseImplImpl.java
+  432  mv UnidadMedidaServiceImplImpl.java UnidadMedidaUseCaseImplImpl.java
+  433  mv UnspscServiceImplImpl.java UnspscUseCaseImplImpl.java
+  434  mv UsuarioServiceImplImpl.java UsuarioUseCaseImplImpl.java
+  435  mv VendedorServiceImplImpl.java VendedorUseCaseImplImpl.java
+  436  mv VentaServiceImplImpl.java VentaUseCaseImplImpl.java
+  437  clear
+  438  mv AlmacenServiceImpl.java AlmacenUseCaseImpl.java  
+  439  mv CargoServiceImpl.java CargoUseCaseImpl.java
+  440  mv CategoriaServiceImpl.java CategoriaUseCaseImpl.java
+  441  mv ClienteServiceImpl.java ClienteUseCaseImpl.java
+  442  mv ConfiguracionServiceImpl.java ConfiguracionUseCaseImpl.java
+  443  mv CorreoServiceImpl.java CorreoUseCaseImpl.java
+  444  mv DetalleOrdenServiceImpl.java DetalleOrdenUseCaseImpl.java
+  445  mv EstatusDetOrdenServiceImpl.java EstatusDetOrdenUseCaseImpl.java
+  446  mv EstatusOrdenServiceImpl.java EstatusOrdenUseCaseImpl.java
+  447  mv EstatusPiezaServiceImpl.java EstatusPiezaUseCaseImpl.java
+  448  mv FormaPagoServiceImpl.java FormaPagoUseCaseImpl.java
+  449  mv ImagenServiceImpl.java ImagenUseCaseImpl.java
+  450  mv MarcaServiceImpl.java MarcaUseCaseImpl.java
+  451  mv ModeloServiceImpl.java ModeloUseCaseImpl.java
+  452  mv MymeTypeServiceImpl.java MymeTypeUseCaseImpl.java
+  453  mv OrdenCompraServiceImpl.java OrdenCompraUseCaseImpl.java
+  454  mv PerfilServiceImpl.java PerfilUseCaseImpl.java
+  455  mv PersonalSeguridadServiceImpl.java PersonalSeguridadUseCaseImpl.java
+  456  mv PiezaServiceImpl.java PiezaUseCaseImpl.java
+  457  mv PrecioServiceImpl.java PrecioUseCaseImpl.java
+  458  mv ProductoHasCategoriaServiceImpl.java ProductoHasCategoriaUseCaseImpl.java
+  459  mv ProductoServiceImpl.java ProductoUseCaseImpl.java
+  460  mv SepomexServiceImpl.java SepomexUseCaseImpl.java
+  461  mv SistemaOficioServiceImpl.java SistemaOficioUseCaseImpl.java
+  462  mv TipoImagenServiceImpl.java TipoImagenUseCaseImpl.java
+  463  mv UnidadMedidaServiceImpl.java UnidadMedidaUseCaseImpl.java
+  464  mv UnspscServiceImpl.java UnspscUseCaseImpl.java
+  465  mv UsuarioServiceImpl.java UsuarioUseCaseImpl.java
+  466  mv VendedorServiceImpl.java VendedorUseCaseImpl.java
+  467  mv VentaServiceImpl.java VentaUseCaseImpl.java
+  468  unzip Card_Animada.zip 
+  469  xkill
+  470  mysql -u root -p
+  471  exit
+  472  ./netbeans 
+  473  exit
+  474  unzip Sps\(1\).zip 
+  475  ssh root@74.208.67.205
+  476  ls  /etc/yum.repos.d/
+  477  ssh root@74.208.67.205
+  478  scp root@74.208.67.205:/root/ServerDataBases.zip
+  479  scp root@74.208.67.205:/root/ServerDataBases.zip ServerDataBases.zip
+  480  exit
+  481  git pull
+  482  git add .
+  483  git commit -m "Parametros de historial"
+  484  git push
+  485  exit
+  486  git pull
+  487  exit
+  488  unzip ServerDataBases.zip 
+  489  ./netbeans 
+  490  xkill
+  491  exit
+  492  ssh root@74.208.67.205
+  493  scp root@74.208.67.205:/root/Servicio.sql Servicio.sql
+  494  exit
+  495  mysql -u root -p
+  496  exit
+  497  mysql -u root -p
+  498  exit
+  499  scp servicioScheduleRepo.zip root@74.208.67.205:/root/servicioScheduleRepo.zip 
+  500  mysql -u root -p
+  501  exit
+  502  mysql -u root -p
+  503  exit
+  504  ./netbeans 
+  505  xkill
+  506  mysql -u root -p
+  507  xkill
+  508  ssh root@74.208.31.248
+  509  exit
+  510  ssh root@74.208.31.248
+  511  unzip bienestar.zip
+  512  mysql -u root -p
+  513  ./netbeans 
+  514  mvn clean install
+  515  exit
+  516  sh startWebLogic.sh 
+  517  ./netbeans 
+  518  ./netbeans 
+  519  xkill
+  520  mysql -u root -p
+  521  ./netbeans 
+  522  mvn clean
+  523  mvn clean install
+  524  mvn clean
+  525  mvn clean install
+  526  mvn clean
+  527  mvn clean install
+  528  mvn clean
+  529  mvn clean install
+  530  mvn clean
+  531  mvn clean install
+  532  mvn clean
+  533  mvn clean install
+  534  mvn clean
+  535  mvn clean install
+  536  mvn clean
+  537  mvn clean install
+  538  mvn clean
+  539  mvn clean install
+  540  mvn clean
+  541  mvn clean install
+  542  mvn clean
+  543  mvn clean install
+  544  mvn clean
+  545  mvn clean install
+  546  mvn clean
+  547  mvn clean install
+  548  sh startWebLogic.sh 
+  549  mysql -u root -p
+  550  exit
+  551  mysql -u root -p
+  552  exit
+  553  sh startWebLogic.sh 
+  554  exit
+  555  mvn clean
+  556  mvn clean install
+  557  mvn clean
+  558  mvn clean install
+  559  mvn clean
+  560  mvn clean install
+  561  mvn clean
+  562  mvn clean install
+  563  mvn clean
+  564  mvn clean install
+  565  mvn clean
+  566  mvn clean install
+  567  mvn clean
+  568  mvn clean install
+  569  mvn clean
+  570  mvn clean install
+  571  exit
+  572  ./netbeans 
+  573  mysql -u root -p
+  574  ./netbeans 
+  575  svn checkout https://svn.code.sf.net/p/j-trac/code/trunk j-trac-code
+  576  mysql -u root -p
+  577  exit
+  578  mvn clean
+  579  mvn clean install
+  580  mysql -u root -p
+  581  ls
+  582  svn checkout https://svn.code.sf.net/p/j-trac/code/trunk j-trac-codessh profesional@74.208.31.248
+  583  ssh profesional@74.208.31.248
+  584  scp profesional.zip profesional@74.208.31.248:/home/profesional/Repositorio/profesional.zip
+  585  ./netbeans 
+  586  scp promotoria.zip promotoria@74.208.31.248:/home/promotoria/Repositorio/promotoria.zip
+  587  git clone promotoria@74.208.31.208:/home/promotoria/Repositorio/promotoria
+  588  exit
+  589  scp promotoria20200601.sql  promotoria@74.208.31.248:/home/promotoria/promotoria20200601.sql
+  590  git add .
+  591  git commit -m "Login iniciado"
+  592  git push
+  593  ./netbeans 
+  594  git clone promotoria@74.208.31.248:/home/promotoria/Repositorio/promotoria
+  595  ./netbeans 
+  596  git add .
+  597  git commit -m "Inicio preguntas"
+  598  git push
+  599  ./netbeans 
+  600  scp -r pc5@192.168.100.19:/home/pc5/oitic /home/saturno/pc5
+  601  scp -r pc5@192.168.100.19:/home/pc5/oitic/importaCP /home/saturno/pc5
+  602  scp pc5@192.168.100.19:/home/pc5/oitic/Migracion.zip Migracion.zip
+  603  scp pc5@192.168.100.19:/home/pc5/oitic/Migración.zip Migracion.zip
+  604  ./netbeans 
+  605  shutdown
+  606  su
+  607  pwd
+  608  ./netbeans 
+  609  ./netbeans 
+  610  ./netbeans 
+  611  mysql -u root -p
+  612  su
+  613  code
+  614  dotnet
+  615  shutter
+  616  yum install shutter
+  617  su
+  618  dotnet new console -o curspApp
+  619  ls
+  620  dotnet run
+  621  ls
+  622  cd curspApp/
+  623  dotnet run
+  624  code
+  625  dotnet new console -o Mx.Com.Oitic.Geometria
+  626  ls
+  627  cd Mx.Com.Oitic.Geometria/
+  628  ls
+  629  cd GeometriaApp
+  630  dotnet new console -o GeometriaApp
+  631  ls
+  632  pwd
+  633  exit
+  634  dotnet new console -o GeometriaApp
+  635  cd GeometriaApp/
+  636  ls
+  637  ls
+  638  cd GeometriaApp/
+  639  ls
+  640  dotnet run
+  641  pwd
+  642  cd /home/saturno/oitic/software/csharp/CursoDotNet31
+  643  ls
+  644  dotnet new console -o CursoApp
+  645  code
+  646  pwd
+  647  dotnet ef dbcontext scaffold "server=192.168.100.10;port=3306;user=recurso_humano;password='Recurso_humano_1234;';database=recurso_humano" MySql.Data.EntityFrameworkCore -o recurso
+  648  ls
+  649  cd CursoApp/
+  650  dotnet ef dbcontext scaffold "server=192.168.100.10;port=3306;user=recurso_humano;password='Recurso_humano_1234;';database=recurso_humano" MySql.Data.EntityFrameworkCore -o recurso
+  651  dotnet run
+  652  ls
+  653  cd CursoApp/
+  654  dotnet run
+  655  dotnet build
+  656  dotnet run
+  657  dotnet build
+  658  dotnet run
+  659  dotnet -v
+  660  pwd
+  661  dotnet add package Microsoft.EntityFrameworkCore -v 3.1.103
+  662  dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.20
+  663  dotnet add package Microsoft.EntityFrameworkCore.Design
+  664  dotnet tool install --global dotnet-ef
+  665  exit
+  666  code
+  667  su
+  668  ls
+  669  cd CursoApp/
+  670  dotnet build
+  671  dotnet run
+  672  dotnet build
+  673  dotnet run
+  674  dotnet build
+  675  dotnet run
+  676  dotnet build
+  677  dotnet run
+  678  dotnet build
+  679  dotnet run
+  680  dotnet build
+  681  dotnet run
+  682  dotnet build
+  683  dotnet run
+  684  dotnet add package Microsoft.Office.Interop.Excel
+  685  yum install autoconf automake libtool
+  686  dotnet build
+  687  dotnet run
+  688  dotnet build
+  689  dotnet run
+  690  dotnet build
+  691  dotnet run
+  692  dotnet build
+  693  dotnet run
+  694  dotnet build
+  695  dotnet run
+  696  code
+  697  ./netbeans 
+  698  dotnet --version
+  699  mkdir Recurso
+  700  cd Recurso/
+  701  dotnet new sln
+  702  dotnet new globaljson --sdk-version 3.1.103
+  703  pwd
+  704  dotnet new classlib -o src\Recurso.Core
+  705  mkdir src
+  706  cd src
+  707  pwd
+  708  dotnet new classlib -o Recurso.Core
+  709  dotnet new classlib -o Recurso.Domain
+  710  dotnet new mvc -o Recurso.Web
+  711  dotnet add Recurso.Domain\Recurso.Domain.csproj package MySql.Data.EntityFrameworkCore  --version 8.0.20
+  712  ls
+  713  cd Recurso.Domain/
+  714  dotnet add  package MySql.Data.EntityFrameworkCore  --version 8.0.20
+  715  dotnet build
+  716  dotnet add  package Microsoft.EntityFrameworkCore.Design
+  717  dotnet build
+  718  cd ..
+  719  ls
+  720  pwd
+  721  dotnet tool install --global dotnet-ef
+  722  cd Recurso.Domain/
+  723  ls
+  724  pwd
+  725  dotnet ef dbcontext scaffold "server=192.168.100.10;port=3306;user=recurso_humano;password='Recurso_humano_1234;';database=recurso_humano" MySql.Data.EntityFrameworkCore -o Poco
+  726  dotnet build
+  727  history > comandos.txt

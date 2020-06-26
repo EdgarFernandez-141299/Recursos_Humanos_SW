@@ -1,0 +1,42 @@
+﻿@using Recurso.Web
+@model IEnumerable<Recurso.Domain.Poco.Genero>
+@{
+    ViewData["Title"] = "Género";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Catalogo De Género</h1>
+    <br/>
+</div>
+
+<form asp-controller="Genero" asp-action="Index" method="get">   
+     <a asp-action="Create">Nuevo</a>
+    <p>       
+        Buscar: <input type="text" name="SearchString" placeholder="Criterio de busqueda"/>
+        <input type="submit" value="Buscar"/>
+    </p> 
+
+
+<table class="table">
+    <thead>
+        <th>
+            Tipo De Género
+        </th>
+        <th></th>
+    </thead>
+    <tbody>
+            @foreach (var vGenero in Model){
+                <tr>                 
+                    <td>
+                        @Html.DisplayFor(modelItem => vGenero.Genero1)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@vGenero.IdGenero">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@vGenero.IdGenero">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@vGenero.IdGenero">Delete</a>
+                    </td>
+                </tr>                
+            }
+    </tbody>
+</table>
+</form>

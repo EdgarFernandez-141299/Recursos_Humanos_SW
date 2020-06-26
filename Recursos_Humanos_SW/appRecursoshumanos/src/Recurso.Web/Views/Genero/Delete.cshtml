@@ -1,0 +1,24 @@
+@using Recurso.Web
+@model Recurso.Domain.Poco.Genero
+@{
+    ViewData["Title"] = "Elimina Género";
+}
+<h1>Eliminación</h1>
+<h4>Género</h4>
+<br/>
+
+<div class="row">
+<div class="col-sm-2">
+    <dt class="col-sn-2">
+       Tipo De Género:
+    </dt>
+    <dd class="col-sn-10">
+        @Html.DisplayFor(model => model.Genero1)
+    </dd>
+   <form asp-action="Delete">
+       <input type="hidden" asp-for="IdGenero"/>
+       <input type="submit" value="Delete" class="btn btn-danger"/>
+       <a asp-action="Index">Regresar</a>
+   </form>
+    </div>
+    </div>

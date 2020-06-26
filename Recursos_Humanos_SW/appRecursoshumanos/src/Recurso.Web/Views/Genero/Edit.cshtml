@@ -1,0 +1,33 @@
+@using Recurso.Web
+@model Recurso.Domain.Poco.Genero
+@{
+    ViewData["Title"] = "Actualizar Género";
+}
+<h1>Edición</h1>
+<h4>Género</h4>
+<br/>
+
+<div class="row">
+<div class="col-md-4">
+    <form asp-action="Edit" method="POST">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdGenero"/>
+            <div class="form-group">
+                <label class="control-label"> Tipo De Género: </label>
+                <input asp-for="Genero1" class="form-control"/>
+                <span asp-validation-for="Genero1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit"  value="Save" class="btn btn-primary">
+            </div>       
+    </form>
+</div>
+</div>
+
+<div>
+    <a asp-action="Index">Regresar</a>
+</div>
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
